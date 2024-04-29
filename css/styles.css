@@ -1,4 +1,24 @@
+.body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+h1,h2,h3 , p{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 .imagen-centrada {
     display:block;
     margin: 0 auto;
+}
+.img-yo{
+    
+    width: 30%;
+    padding: 10px;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+
 }
