@@ -9,7 +9,7 @@
     outline: none;
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
-    border-radius: 2rem;
+    /* border-: 2rem; */
 }
 :root {
     --bg-color: #1f242d;
@@ -58,6 +58,7 @@ section {
 }
 
 .navbar a{
+    
     font-size: 2rem;
     color: var(--text-color);
     margin-left: 4rem;
@@ -82,6 +83,7 @@ section {
 }
 .home-img {
     width: auto;
+    border-radius: 2rem;
 }
 
 /* @keyframes floatImage {
@@ -162,11 +164,12 @@ span {
     align-items: center;
     gap: 2rem;
     background: var(--second-bg-color);
+    /* margin-bottom: 2rem; */
 }
 
 .about-img img {
     width: 35vw;
-    
+    border-radius: 2rem;
 }
 
 .heading {
@@ -256,6 +259,7 @@ span {
 .portfolio-box img {
     width: 100%;
     transition: .5s ease;
+    border-radius: 2rem;
 }
 
 .portfolio-box:hover img {
@@ -453,7 +457,8 @@ contact form textarea {
     }
     .home-img img {
         width: 70vw;
-        margin-top: 4rem;   
+        margin-top: 4rem;  
+        border-radius: 2rem; 
     }
 
     .about {
@@ -494,10 +499,12 @@ contact form textarea {
 @media (max-width: 365px) {
     .home-img img {
         width: 90vw;
+        border-radius: 2rem;
     }
 
     .about-img img {
         width: 90vw;
+        border-radius: 2rem;
     }
 
     .footer {
@@ -509,4 +516,15 @@ contact form textarea {
         margin-top: 2rem;
     }
 
+}
+.logo-agus{
+    width: 450px !important;
+}
+.about-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* background: var(--second-bg-color); */
+    margin-top: 2rem;
 }
