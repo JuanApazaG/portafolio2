@@ -1,0 +1,25 @@
+---
+import ExperienceItem from "./ExperienceItem.astro"
+const EXPERIENCE = [
+  {
+    date: "Actualmente...",
+    title: "Desarrollador en Formación",
+    company: "Udemy, Platzi, YouTube",
+    description:
+      "Actualmente, estoy en un proceso continuo de aprendizaje en tecnología a través de plataformas como Udemy, Platzi y YouTube. Me enfoco en Python, análisis de datos y desarrollo web",
+    link: "https://platzi.com/p/juanagustin7887/",
+  },
+  
+]
+
+---
+
+<ol class="relative mt-16">
+  {
+    EXPERIENCE.map((experience) => (
+      <li class="">
+        <ExperienceItem {...experience} />
+      </li>
+    ))
+  }
+</ol>
